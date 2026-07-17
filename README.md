@@ -1,4 +1,4 @@
-# Steven Bouchard Lavoie — Site iA + Landing Meta
+# Steven Bouchard Lavoie - Site iA + Landing Meta
 
 Site statique français pour Steven Bouchard Lavoie, conseiller en sécurité financière (iA Groupe financier, Agence Dolbeau 043).
 
@@ -54,7 +54,7 @@ Endpoint : `https://webto.salesforce.com/servlet/WebToLead?encoding=UTF-8`
 |-------|--------|
 | `oid` | Remplacer `REPLACE_ME_SALESFORCE_OID` |
 | `00NREPLACE_TYPE` | Remplacer par l’API name du picklist « Type de demande » |
-| Champs UTM | Noms standards ou custom — aligner avec Apollo/SF |
+| Champs UTM | Noms standards ou custom - aligner avec Apollo/SF |
 | `lead_source` | `Website` (contact) / `Meta Ads` (landing) |
 
 Tant que `oid` commence par `REPLACE_ME`, le JS bloque l’envoi et affiche un message (évite un POST invalide).

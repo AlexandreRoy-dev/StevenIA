@@ -116,7 +116,7 @@ p:last-child {
   width: min(100% - 2rem, var(--container-narrow));
 }
 
-/* —— Header / Nav —— */
+/* -- Header / Nav -- */
 .site-header {
   position: sticky;
   top: 0;
@@ -305,7 +305,7 @@ p:last-child {
   }
 }
 
-/* —— Buttons —— */
+/* -- Buttons -- */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -378,7 +378,7 @@ p:last-child {
   gap: var(--space-3);
 }
 
-/* —— Hero —— */
+/* -- Hero -- */
 .hero {
   position: relative;
   min-height: min(92vh, 48rem);
@@ -509,7 +509,7 @@ p:last-child {
   }
 }
 
-/* —— Sections —— */
+/* -- Sections -- */
 .section {
   padding: var(--space-16) 0;
 }
@@ -560,7 +560,7 @@ p:last-child {
   font-size: var(--text-lg);
 }
 
-/* —— Trust strip —— */
+/* -- Trust strip -- */
 .trust {
   padding: var(--space-6) 0;
   border-block: 1px solid var(--color-border);
@@ -584,7 +584,7 @@ p:last-child {
   letter-spacing: 0.01em;
 }
 
-/* —— Pillars / grids —— */
+/* -- Pillars / grids -- */
 .grid-3 {
   display: grid;
   gap: var(--space-8);
@@ -739,7 +739,7 @@ p:last-child {
   font-size: var(--text-xl);
 }
 
-/* —— FAQ —— */
+/* -- FAQ -- */
 .faq {
   display: grid;
   gap: var(--space-3);
@@ -777,7 +777,7 @@ p:last-child {
   margin-top: var(--space-3);
 }
 
-/* —— Forms —— */
+/* -- Forms -- */
 .form {
   display: grid;
   gap: var(--space-4);
@@ -895,7 +895,7 @@ p:last-child {
   text-decoration: none;
 }
 
-/* —— CTA band —— */
+/* -- CTA band -- */
 .cta-band {
   text-align: center;
 }
@@ -905,7 +905,7 @@ p:last-child {
   margin-top: var(--space-6);
 }
 
-/* —— Footer —— */
+/* -- Footer -- */
 .site-footer {
   background: var(--color-primary-deep);
   color: rgb(255 255 255 / 0.78);
@@ -977,7 +977,7 @@ p:last-child {
   width: auto;
 }
 
-/* —— Reveal —— */
+/* -- Reveal -- */
 [data-reveal] {
   opacity: 0;
   transform: translateY(1.5rem);
@@ -999,7 +999,7 @@ p:last-child {
   }
 }
 
-/* —— Page utilities —— */
+/* -- Page utilities -- */
 .page-hero {
   padding: var(--space-16) 0 var(--space-10);
   background:
