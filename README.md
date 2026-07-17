@@ -13,7 +13,11 @@ Site statique français pour Steven Bouchard Lavoie, conseiller en sécurité fi
 |---------|------|
 | `index.html` | Accueil site |
 | `landing.html` | Landing conversion Meta (sections longues) |
-| `services.html` | MRA, Le Coffre, CDC, épargne |
+| `services.html` | Hub des services |
+| `service-mra.html` | Programme MRA + processus |
+| `service-coffre.html` | Le Coffre + processus |
+| `service-cdc.html` | Stratégie CDC + processus |
+| `service-epargne.html` | Épargne et retraite + processus |
 | `contact.html` | Formulaire Salesforce (`lead_source=Website`) |
 | `merci.html` | Confirmation + événement Lead Meta Pixel |
 | `politique-confidentialite.html` | Loi 25 |

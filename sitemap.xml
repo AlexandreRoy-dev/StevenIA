@@ -16,6 +16,26 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://alexandreroy-dev.github.io/stevenia/service-mra.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alexandreroy-dev.github.io/stevenia/service-coffre.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alexandreroy-dev.github.io/stevenia/service-cdc.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alexandreroy-dev.github.io/stevenia/service-epargne.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://alexandreroy-dev.github.io/stevenia/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
