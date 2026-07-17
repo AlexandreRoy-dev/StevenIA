@@ -36,6 +36,21 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://alexandreroy-dev.github.io/stevenia/service-assurance-vie.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://alexandreroy-dev.github.io/stevenia/service-auto-habitation.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alexandreroy-dev.github.io/stevenia/service-refinancement.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://alexandreroy-dev.github.io/stevenia/contact.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

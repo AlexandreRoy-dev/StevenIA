@@ -18,6 +18,9 @@ Site statique français pour Steven Bouchard Lavoie, conseiller en sécurité fi
 | `service-coffre.html` | Le Coffre + processus |
 | `service-cdc.html` | Stratégie CDC + processus |
 | `service-epargne.html` | Épargne et retraite + processus |
+| `service-assurance-vie.html` | Vie, maladies graves, invalidité + processus |
+| `service-auto-habitation.html` | Auto/habitation via partenaire (pas offert directement) |
+| `service-refinancement.html` | Refinancement via équipe partenaire (pas offert directement) |
 | `contact.html` | Formulaire Salesforce (`lead_source=Website`) |
 | `merci.html` | Confirmation + événement Lead Meta Pixel |
 | `politique-confidentialite.html` | Loi 25 |
