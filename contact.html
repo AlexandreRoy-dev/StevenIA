@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Steven Bouchard Lavoie — Conseiller iA Dolbeau</title>
+  <meta name="description" content="Prenez rendez-vous avec Steven Bouchard Lavoie, conseiller en sécurité financière iA à Dolbeau-Mistassini. Téléphone 418 515-1130.">
+  <link rel="canonical" href="https://alexandreroy-dev.github.io/stevenia/contact.html">
+  <meta property="og:title" content="Contact | Steven Bouchard Lavoie">
+  <meta property="og:description" content="Planifiez une conversation sur votre protection et votre patrimoine.">
+  <meta property="og:url" content="https://alexandreroy-dev.github.io/stevenia/contact.html">
+  <meta property="og:image" content="https://alexandreroy-dev.github.io/stevenia/assets/images/og-social.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Instrument+Sans:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Navigation principale">
+      <a class="brand" href="./index.html">
+        <img class="brand__mark" src="./assets/images/logo-ia.svg" alt="" width="40" height="40">
+        <span class="brand__text">
+          <span class="brand__name">Steven Bouchard Lavoie</span>
+          <span class="brand__role">Conseiller · iA Groupe financier</span>
+        </span>
+      </a>
+      <ul class="nav__links">
+        <li><a href="./index.html">Accueil</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./index.html#a-propos">À propos</a></li>
+        <li><a href="./landing.html">Entrepreneurs</a></li>
+        <li><a href="./contact.html" aria-current="page">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <a class="nav__phone" href="tel:+14185151130">418 515-1130</a>
+        <a class="btn btn--primary" href="#formulaire">Rendez-vous</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" aria-label="Ouvrir le menu">
+          <span class="nav-toggle__bar"></span>
+        </button>
+      </div>
+    </nav>
+    <div class="nav__panel" id="nav-panel">
+      <ul>
+        <li><a href="./index.html">Accueil</a></li>
+        <li><a href="./services.html">Services</a></li>
+        <li><a href="./landing.html">Entrepreneurs</a></li>
+        <li><a href="./contact.html" aria-current="page">Contact</a></li>
+      </ul>
+      <a class="btn btn--primary btn--block" href="#formulaire">Prendre rendez-vous</a>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <header class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h1>Planifions votre prochaine étape</h1>
+        <p class="lead" style="max-width: 38rem;">Une conversation claire, sans pression — pour comprendre vos objectifs et les leviers disponibles.</p>
+      </div>
+    </header>
+
+    <section class="section section--tight">
+      <div class="container grid-2">
+        <div class="contact-aside" data-reveal>
+          <h2>Bureau de Dolbeau</h2>
+          <p>1661 boulevard Wallberg<br>Dolbeau-Mistassini (Québec) G8L 1H7</p>
+          <p>
+            <a href="tel:+14185151130">Cellulaire : 418 515-1130</a><br>
+            <a href="tel:+14182763811">Bureau : 418 276-3811</a><br>
+            <a href="tel:+18887423811">Sans frais : 1 888 742-3811</a>
+          </p>
+          <p><a href="mailto:steven.lavoie@agc.ia.ca">steven.lavoie@agc.ia.ca</a></p>
+          <p>Industrielle Alliance, Assurance et services financiers inc.<br>
+          Assurance et Services Financiers Inc. et Michel Rhéaume &amp; Associés (MRa)<br>
+          Agence Dolbeau 043</p>
+        </div>
+
+        <form
+          id="formulaire"
+          class="form"
+          data-sf-lead
+          data-reveal
+          action="https://webto.salesforce.com/servlet/WebToLead?encoding=UTF-8"
+          method="POST"
+          novalidate
+        >
+          <h2>Demande de rendez-vous</h2>
+          <p>Les champs marqués d’un astérisque sont obligatoires.</p>
+
+          <!-- REPLACE_ME: Salesforce Org ID -->
+          <input type="hidden" name="oid" value="REPLACE_ME_SALESFORCE_OID">
+          <input type="hidden" name="retURL" value="https://alexandreroy-dev.github.io/stevenia/merci.html">
+          <input type="hidden" name="lead_source" value="Website">
+          <input type="hidden" name="utm_source" value="">
+          <input type="hidden" name="utm_medium" value="">
+          <input type="hidden" name="utm_campaign" value="">
+          <input type="hidden" name="utm_content" value="">
+          <input type="hidden" name="utm_term" value="">
+
+          <div class="hp" aria-hidden="true">
+            <label>Fax <input type="text" name="fax_number" tabindex="-1" autocomplete="off"></label>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label for="first_name">Prénom *</label>
+              <input id="first_name" name="first_name" type="text" autocomplete="given-name" required>
+              <p class="field__error">Ce champ est requis.</p>
+            </div>
+            <div class="field">
+              <label for="last_name">Nom *</label>
+              <input id="last_name" name="last_name" type="text" autocomplete="family-name" required>
+              <p class="field__error">Ce champ est requis.</p>
+            </div>
+          </div>
+
+          <div class="form__row">
+            <div class="field">
+              <label for="email">Courriel *</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+              <p class="field__error">Entrez une adresse courriel valide.</p>
+            </div>
+            <div class="field">
+              <label for="phone">Téléphone *</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+              <p class="field__error">Entrez un numéro valide.</p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="company">Entreprise (optionnel)</label>
+            <input id="company" name="company" type="text" autocomplete="organization">
+          </div>
+
+          <div class="field">
+            <label for="type_demande">Type de demande *</label>
+            <!-- Custom field API name: replace when client provides SF field ID -->
+            <select id="type_demande" name="00NREPLACE_TYPE" required>
+              <option value="">Sélectionnez…</option>
+              <option value="Entreprise">Entreprise</option>
+              <option value="Personnel">Personnel</option>
+              <option value="Les deux">Les deux</option>
+            </select>
+            <p class="field__error">Sélectionnez une option.</p>
+          </div>
+
+          <div class="field">
+            <label for="description">Message</label>
+            <textarea id="description" name="description" maxlength="32000"></textarea>
+          </div>
+
+          <div class="checkbox field">
+            <input id="consent" name="consent" type="checkbox" required>
+            <label for="consent">
+              J’accepte que mes renseignements soient utilisés pour me recontacter concernant cette demande, conformément à la
+              <a href="./politique-confidentialite.html">politique de confidentialité</a> (Loi&nbsp;25). *
+              <span class="field__error">Veuillez accepter pour continuer.</span>
+            </label>
+          </div>
+
+          <button class="btn btn--primary btn--block" type="submit">Envoyer la demande</button>
+          <p class="form__status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <strong style="color:#fff;">Steven Bouchard Lavoie</strong>
+          <p>Conseiller en sécurité financière · Industrielle Alliance, Assurance et services financiers inc.</p>
+        </div>
+        <div>
+          <h2>Liens</h2>
+          <ul>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./landing.html">Entrepreneurs</a></li>
+            <li><a href="./politique-confidentialite.html">Confidentialité</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2>Conformité</h2>
+          <ul>
+            <li><a href="https://lautorite.qc.ca/" rel="noopener noreferrer" target="_blank">Autorité des marchés financiers</a></li>
+            <li><a href="https://ia.ca/" rel="noopener noreferrer" target="_blank">ia.ca</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__legal">
+        <p>iA Groupe financier est une marque de commerce et un autre nom sous lequel Industrielle Alliance, Assurance et services financiers inc. exerce ses activités.</p>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>

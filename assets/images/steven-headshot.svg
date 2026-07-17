@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" role="img" aria-label="Photo professionnelle à venir  Steven Bouchard Lavoie">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#003366"/>
+      <stop offset="100%" stop-color="#0b4f82"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="800" fill="url(#bg)"/>
+  <circle cx="320" cy="280" r="110" fill="#ffffff" fill-opacity="0.12"/>
+  <circle cx="320" cy="250" r="48" fill="#ffffff" fill-opacity="0.22"/>
+  <ellipse cx="320" cy="360" rx="80" ry="60" fill="#ffffff" fill-opacity="0.22"/>
+  <text x="320" y="520" text-anchor="middle" fill="#ffffff" font-family="Georgia, serif" font-size="28" font-weight="600">Steven Bouchard Lavoie</text>
+  <text x="320" y="560" text-anchor="middle" fill="#C5A059" font-family="Arial, sans-serif" font-size="16">Photo professionnelle à venir</text>
+</svg>

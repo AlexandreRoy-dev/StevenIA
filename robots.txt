@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alexandreroy-dev.github.io/stevenia/sitemap.xml

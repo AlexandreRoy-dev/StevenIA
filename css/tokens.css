@@ -1,0 +1,65 @@
+:root {
+  /* Brand — iA-inspired (verify against Guide de normes when available) */
+  --color-bg: #fafbfc;
+  --color-bg-soft: #f0f4f8;
+  --color-surface: #ffffff;
+  --color-text: #0f172a;
+  --color-text-muted: #475569;
+  --color-primary: #003366;
+  --color-primary-deep: #001f3d;
+  --color-primary-soft: #e8eef5;
+  --color-accent: #c5a059;
+  --color-accent-hover: #b08d45;
+  --color-accent-soft: #f5efe6;
+  --color-border: #e2e8f0;
+  --color-success: #0f766e;
+  --color-error: #b91c1c;
+  --color-focus: #2563eb;
+
+  --font-heading: "Instrument Sans", system-ui, sans-serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: clamp(1.5rem, 2vw + 1rem, 2rem);
+  --text-3xl: clamp(1.875rem, 3vw + 1rem, 2.75rem);
+  --text-4xl: clamp(2.25rem, 4vw + 1rem, 3.5rem);
+  --text-hero: clamp(2.5rem, 5vw + 1rem, 4rem);
+
+  --leading-tight: 1.15;
+  --leading-snug: 1.35;
+  --leading-normal: 1.6;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  --radius-sm: 0.375rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.75rem;
+
+  --shadow-sm: 0 1px 2px rgb(15 23 42 / 0.06);
+  --shadow-md: 0 8px 24px rgb(15 23 42 / 0.08);
+  --shadow-lg: 0 20px 48px rgb(15 23 42 / 0.12);
+
+  --container: 72rem;
+  --container-narrow: 42rem;
+  --header-h: 4.5rem;
+
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --duration: 0.45s;
+  --nav-blur: saturate(1.2) blur(14px);
+}
