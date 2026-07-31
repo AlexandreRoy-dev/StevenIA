@@ -634,9 +634,24 @@ p:last-child {
 
 .pillar {
   position: relative;
-  padding: 0;
-  border: none;
-  background: transparent;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: var(--space-8);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform 0.25s var(--ease-out),
+    box-shadow 0.25s var(--ease-out),
+    border-color 0.25s var(--ease-out);
+}
+
+.pillar:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+  border-color: rgb(0 51 102 / 0.18);
 }
 
 .pillar__index {
@@ -661,11 +676,17 @@ p:last-child {
   display: flex;
   flex-wrap: wrap;
   gap: var(--space-4) var(--space-6);
+  margin-top: auto;
 }
 
 .pillar__link {
   font-weight: 600;
   text-decoration: none;
+  margin-top: auto;
+}
+
+.pillar:has(.pillar__links) .pillar__link {
+  margin-top: 0;
 }
 
 .pillar__link::after {
